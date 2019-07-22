@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/viber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIBER"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/viber_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/viber" />
+
+    <TextView
+        android:id="@+id/viberName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIBER NAME"
+        app:layout_constraintBottom_toTopOf="@+id/viberLast"
+        app:layout_constraintStart_toStartOf="@+id/viber"
+        app:layout_constraintTop_toBottomOf="@+id/viber" />
+
+    <TextView
+        android:id="@+id/viberId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="VIBER ID"
+        app:layout_constraintBottom_toBottomOf="@+id/viberName"
+        app:layout_constraintStart_toEndOf="@+id/viberName"
+        app:layout_constraintTop_toTopOf="@+id/viberName" />
+
+
+    <TextView
+        android:id="@+id/viberLast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LAST SEEN"
+        app:layout_constraintBottom_toBottomOf="@+id/viber_image"
+        app:layout_constraintStart_toStartOf="@+id/viber" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

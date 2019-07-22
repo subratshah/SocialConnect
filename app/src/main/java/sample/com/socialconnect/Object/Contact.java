@@ -41,4 +41,20 @@ public class Contact {
     public String getPref() {
         return pref;
     }
+
+    public void setDuo(Duo duo) {
+        this.duo = duo;
+    }
+
+    public void setEmail(Email email) {
+        this.email = email;
+    }
+
+    public void setWhatsapp(WhatsApp whatsapp) {
+        this.whatsapp = whatsapp;
+    }
+
+    public void setViber(Viber viber) {
+        this.viber = viber;
+    }
 }

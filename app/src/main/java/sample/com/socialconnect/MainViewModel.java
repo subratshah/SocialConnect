@@ -17,6 +17,8 @@ import sample.com.socialconnect.Object.WhatsApp;
 public class MainViewModel extends ViewModel implements LifecycleObserver {
 
     List<Contact> contacts = new ArrayList<>();
+    private RecyclerAdapter recyclerAdapter;
+
 
     @OnLifecycleEvent(Lifecycle.Event.ON_CREATE)
     void init() {
@@ -35,5 +37,10 @@ public class MainViewModel extends ViewModel implements LifecycleObserver {
         Contact suresh = new Contact("Suresh", "WhatsApp");
         WhatsApp whatsApp = new WhatsApp(true);
         contacts.add(suresh);
+
+    }
+
+    public RecyclerAdapter getAdapter() {
+        return recyclerAdapter;
     }
 }

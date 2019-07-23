@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/duo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DUO"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/duo_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/duo" />
+
+    <TextView
+        android:id="@+id/duoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DUO NAME"
+        app:layout_constraintBottom_toTopOf="@+id/duoLast"
+        app:layout_constraintStart_toStartOf="@+id/duo"
+        app:layout_constraintTop_toBottomOf="@+id/duo" />
+
+    <TextView
+        android:id="@+id/duoId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="DUO STATUS"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/duoName"
+        app:layout_constraintStart_toEndOf="@+id/duoName" />
+
+
+    <TextView
+        android:id="@+id/duoLast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DUO STATUS"
+        app:layout_constraintBottom_toBottomOf="@+id/duo_image"
+        app:layout_constraintStart_toStartOf="@+id/duo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

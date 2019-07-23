@@ -6,48 +6,47 @@
     android:padding="16dp">
 
     <TextView
-        android:id="@+id/email"
+        android:id="@+id/duo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="EMAIL"
+        android:text="DUO"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/viber_image"
+        android:id="@+id/duo_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_launcher_background"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/email"
-        android:visibility="invisible"/>
+        app:layout_constraintTop_toTopOf="@+id/duo" />
 
     <TextView
-        android:id="@+id/emailName"
+        android:id="@+id/duoName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="EMAIL NAME"
-        app:layout_constraintBottom_toTopOf="@+id/viberLast"
-        app:layout_constraintStart_toStartOf="@+id/email"
-        app:layout_constraintTop_toBottomOf="@+id/email" />
+        android:text="DUO NAME"
+        app:layout_constraintBottom_toTopOf="@+id/duoLast"
+        app:layout_constraintStart_toStartOf="@+id/duo"
+        app:layout_constraintTop_toBottomOf="@+id/duo" />
 
     <TextView
-        android:id="@+id/emailId"
+        android:id="@+id/duoId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:text="EMAIL ID"
-        app:layout_constraintBottom_toBottomOf="@+id/emailName"
-        app:layout_constraintStart_toEndOf="@+id/emailName"
-        app:layout_constraintTop_toTopOf="@+id/emailName" />
+        android:text="DUO STATUS"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/duoName"
+        app:layout_constraintStart_toEndOf="@+id/duoName" />
+
 
     <TextView
-        android:id="@+id/viberLast"
+        android:id="@+id/duoLast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LAST SEEN"
-        app:layout_constraintBottom_toBottomOf="@+id/viber_image"
-        app:layout_constraintStart_toStartOf="@+id/viber"
-        android:visibility="invisible"/>
+        android:text="DUO STATUS"
+        app:layout_constraintBottom_toBottomOf="@+id/duo_image"
+        app:layout_constraintStart_toStartOf="@+id/duo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

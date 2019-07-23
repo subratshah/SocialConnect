@@ -12,6 +12,7 @@ import sample.com.socialconnect.Object.Contact;
 import sample.com.socialconnect.Object.Duo;
 import sample.com.socialconnect.Object.Email;
 import sample.com.socialconnect.Object.Viber;
+import sample.com.socialconnect.Object.WhatsApp;
 
 public class MainViewModel extends ViewModel implements LifecycleObserver {
 
@@ -20,16 +21,19 @@ public class MainViewModel extends ViewModel implements LifecycleObserver {
     @OnLifecycleEvent(Lifecycle.Event.ON_CREATE)
     void init() {
         Contact ram = new Contact("Ram", "Viber");
-        Viber viber = new Viber(R.drawable.ic_launcher_foreground, "V1", "Yesterday");
+        Viber viber = new Viber(R.drawable.ic_launcher_foreground, "V01", "2m ago");
         ram.setViber(viber);
         contacts.add(ram);
 
-        Email email = new Email("ramesh@gmail.com");
         Contact ramesh = new Contact("Ramesh", "Email");
+        Email email = new Email("ramesh@gmail.com");
+        Duo duo = new Duo(false);
         ramesh.setEmail(email);
-        contacts.add((ramesh);
+        ramesh.setDuo(duo);
+        contacts.add(ramesh);
 
-        Duo duo = new Duo(true);
-        contacts.add(new Contact("Ramesh", "Duo", ramesh));
+        Contact suresh = new Contact("Suresh", "WhatsApp");
+        WhatsApp whatsApp = new WhatsApp(true);
+        contacts.add(suresh);
     }
 }

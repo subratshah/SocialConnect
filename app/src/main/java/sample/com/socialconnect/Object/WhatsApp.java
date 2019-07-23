@@ -1,19 +1,21 @@
 package sample.com.socialconnect.Object;
 
 public class WhatsApp {
-    String name;
     boolean status;
 
-    public WhatsApp(String name, boolean status) {
-        this.name = name;
+    public WhatsApp(boolean status) {
         this.status = status;
-    }
-
-    public String getName() {
-        return name;
     }
 
     public boolean isStatus() {
         return status;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setStatus(boolean status) {
+        this.status = status;
     }
 }

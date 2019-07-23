@@ -1,19 +1,17 @@
 package sample.com.socialconnect.Object;
 
 public class Email {
-    String name;
     String emailId;
 
-    public Email(String name, String emailId) {
-        this.name = name;
+    public Email(String emailId) {
         this.emailId = emailId;
-    }
-
-    public String getName() {
-        return name;
     }
 
     public String getEmailId() {
         return emailId;
+    }
+
+    public void setEmailId(String emailId) {
+        this.emailId = emailId;
     }
 }

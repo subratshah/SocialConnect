@@ -1,19 +1,17 @@
 package sample.com.socialconnect.Object;
 
 public class Duo {
-    String name;
     boolean status;
 
-    public Duo(String name, boolean status) {
-        this.name = name;
+    public Duo(boolean status) {
         this.status = status;
-    }
-
-    public String getName() {
-        return name;
     }
 
     public boolean isStatus() {
         return status;
+    }
+
+    public void setStatus(boolean status) {
+        this.status = status;
     }
 }

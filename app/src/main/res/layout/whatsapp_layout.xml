@@ -6,47 +6,47 @@
     android:padding="16dp">
 
     <TextView
-        android:id="@+id/viber"
+        android:id="@+id/whatsapp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="VIBER"
+        android:text="WHATSAPP"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/viber_image"
+        android:id="@+id/whatsapp_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_launcher_background"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/viber" />
+        app:layout_constraintTop_toTopOf="@+id/whatsapp" />
 
     <TextView
-        android:id="@+id/viberName"
+        android:id="@+id/whatsappName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="VIBER NAME"
-        app:layout_constraintBottom_toTopOf="@+id/viberLast"
-        app:layout_constraintStart_toStartOf="@+id/viber"
-        app:layout_constraintTop_toBottomOf="@+id/viber" />
+        android:text="WHATSAPP NAME"
+        app:layout_constraintBottom_toTopOf="@+id/whatsappLast"
+        app:layout_constraintStart_toStartOf="@+id/whatsapp"
+        app:layout_constraintTop_toBottomOf="@+id/whatsapp" />
 
     <TextView
-        android:id="@+id/viberId"
+        android:id="@+id/whatsappId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:text="VIBER ID"
-        app:layout_constraintBottom_toBottomOf="@+id/viberName"
-        app:layout_constraintStart_toEndOf="@+id/viberName"
-        app:layout_constraintTop_toTopOf="@+id/viberName" />
+        android:text="WHATSAPP STATUS"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/whatsappName"
+        app:layout_constraintStart_toEndOf="@+id/whatsappName" />
 
 
     <TextView
-        android:id="@+id/viberLast"
+        android:id="@+id/whatsappLast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LAST SEEN"
-        app:layout_constraintBottom_toBottomOf="@+id/viber_image"
-        app:layout_constraintStart_toStartOf="@+id/viber" />
+        android:text="WHATSAPP STATUS"
+        app:layout_constraintBottom_toBottomOf="@+id/whatsapp_image"
+        app:layout_constraintStart_toStartOf="@+id/whatsapp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,17 +1,18 @@
-package com.example.weatherapp.DependencyInjection;
+package sample.com.socialconnect.DependencyInjection;
 
 import javax.inject.Singleton;
 
 import dagger.Component;
 import dagger.android.AndroidInjector;
 import dagger.android.support.AndroidSupportInjectionModule;
+import sample.com.socialconnect.Object.SocailApplication;
 
 @Singleton
 @Component(modules = {
-        AndroidSupportInjectionModule.class,         //Need to use Dagger in the App
-        ActivityModule.class,                        //Need to add Activities that use Dagger
-        NetworkModule.class
+        AndroidSupportInjectionModule.class,
+        ActivityModule.class,
+        AppModule.class
 })
-interface AppComponent extends AndroidInjector<WeatherApplication> {
+interface AppComponent extends AndroidInjector<SocailApplication> {
 
 }

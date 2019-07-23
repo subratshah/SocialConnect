@@ -1,14 +1,12 @@
-package com.example.weatherapp.DependencyInjection;
-
-import com.example.weatherapp.MainActivity;
+package sample.com.socialconnect.DependencyInjection;
 
 import dagger.Module;
 import dagger.android.ContributesAndroidInjector;
+import sample.com.socialconnect.MainActivity;
 
 @Module
 abstract class ActivityModule {
 
-    //Add all the Activities that need Dagger
     @ContributesAndroidInjector
     abstract MainActivity providesMainActivity();
 }

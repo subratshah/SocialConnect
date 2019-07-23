@@ -11,18 +11,48 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/recycler_view"
+        <include
+            android:id="@+id/email"
+            layout="@layout/email_layout"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:adapter="@{viewModel.adapter}"
-            android:background="@color/colorPrimary"
-            android:scrollbars="vertical"
-            app:layoutManager="android.support.v7.widget.LinearLayoutManager"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_height="wrap_content"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="parent" />
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <include
+            android:id="@+id/viber"
+            layout="@layout/viber_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/email" />
+
+        <include
+            android:id="@+id/whatsapp"
+            layout="@layout/whatsapp_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viber" />
+
+        <include
+            android:id="@+id/duo"
+            layout="@layout/duo_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/whatsapp" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

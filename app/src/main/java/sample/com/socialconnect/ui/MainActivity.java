@@ -9,7 +9,7 @@ import androidx.lifecycle.LifecycleOwner;
 import javax.inject.Inject;
 
 import dagger.android.AndroidInjection;
-import sample.com.socialconnect.ContactViewModel;
+import sample.com.socialconnect.viewModel.ContactViewModel;
 import sample.com.socialconnect.R;
 import sample.com.socialconnect.databinding.ActivityMainBinding;
 

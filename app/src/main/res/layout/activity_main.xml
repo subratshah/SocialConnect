@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="sample.com.socialconnect.ContactViewModel" />
+            type="sample.com.socialconnect.viewModel.ContactViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -21,7 +21,8 @@
             android:layout_height="match_parent"
             android:adapter="@{viewModel.mainAdapter}"
             android:scrollbars="vertical"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:background="@color/colorPrimaryDark"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

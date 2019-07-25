@@ -1,13 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="69e7ec4f-23bf-4eef-913e-4590e19d8135" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/Duo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/Viber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/WhatsApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/dependencyInjection/BaseApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/model/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/model/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/ui/DetailActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/ui/DetailAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/ui/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/ui/MainAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_duo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_envelope.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_viber.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_whatsapp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/DependencyInjection/ActivityModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/dependencyInjection/ActivityBuilderModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/DependencyInjection/AppComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/dependencyInjection/AppComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/DependencyInjection/AppModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/DependencyInjection/SocailApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/DetailActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/MainViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/ContactViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/Contact.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/Duo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/Email.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/Viber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/WhatsApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/RecyclerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_email_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/contactlist_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/duo_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/email_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/viber_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/whatsapp_layout.xml" beforeDir="false" />
+    </list>
+    <list id="73e65800-c477-4fda-9989-65e42d496e31" name="Ignore" comment="Ignore">
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_adapters_3_4_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_common_3_4_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_runtime_3_4_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_2_22_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_android_2_22_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_android_support_2_22_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialConnect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SocialConnect.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,98 +77,148 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-              <folding>
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
-                <element signature="e#616#617#0" expanded="true" />
-                <element signature="e#647#648#0" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/Viber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/WhatsApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-              <folding>
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/Email.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-              <folding>
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/Duo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-              <folding>
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+              <provider editor-type-id="android-designer2" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="153">
+                  <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/ui/MainActivity.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="25" column="104" selection-start-line="25" selection-start-column="104" selection-end-line="25" selection-end-column="104" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/ContactViewModel.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="527">
+                  <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_main.xml">
+              <provider editor-type-id="android-designer2" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="434">
+                  <caret line="26" column="64" lean-forward="true" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/ui/MainAdapter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="357">
+                  <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+                  <folding>
+                    <element signature="e#575#576#0" expanded="true" />
+                    <element signature="e#615#616#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml">
+              <provider editor-type-id="android-designer2" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="442">
+                  <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/ui/DetailActivity.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/model/Contact.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="442">
+                  <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#320#321#0" expanded="true" />
+                    <element signature="e#352#353#0" expanded="true" />
+                    <element signature="e#549#550#0" expanded="true" />
+                    <element signature="e#576#577#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_detail.xml">
+              <provider editor-type-id="android-designer2" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="321">
+                  <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/ui/DetailAdapter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="26" column="135" selection-start-line="26" selection-start-column="135" selection-end-line="26" selection-end-column="135" />
+                  <folding>
+                    <element signature="e#604#605#0" expanded="true" />
+                    <element signature="e#636#637#0" expanded="true" />
+                    <element signature="e#1487#1488#0" expanded="true" />
+                    <element signature="e#1553#1554#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/model/App.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+                  <folding>
+                    <element signature="e#736#737#0" expanded="true" />
+                    <element signature="e#762#763#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -115,25 +227,108 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>itemViewModel</find>
+      <find>ItemViewModel</find>
+      <find>contactss</find>
+      <find>viber</find>
+      <find>VIBER</find>
+      <find>whatsapp</find>
+      <find>WHATSAPP</find>
+      <find>viber_layout</find>
+      <find>email_layout</find>
+      <find>email_image</find>
+      <find>email_image&quot;</find>
+      <find>email_image2&quot;</find>
+      <find>Time</find>
+      <find>text</find>
+      <find>V</find>
+      <find>Email</find>
+      <find>g</find>
+      <find>email_image4</find>
+      <find>email_image3</find>
+      <find>duo_image</find>
+      <find>email_image5</find>
+      <find>gon</find>
+      <find>itemContactlistBinding</find>
+      <find>itemMani</find>
+      <find>Computer</find>
+      <find>GraphicsCard</find>
+      <find>HDD</find>
+      <find>ItemMainListBinding</find>
+      <find>itemMainlistBinding</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Screen" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/Viber.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/Person.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/Duo.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/Email.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/Whatsapp.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/DependencyInjection/ActivityModule.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/Email.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/ViewModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/RecyclerAdapterImpl.java" />
+        <option value="$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/dataBindingGenBaseClassesDebug/out/sample/com/socialconnect/databinding/ContactlistItemBinding.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/contactlist_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/DependencyInjection/AppModule.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/RecyclerAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/MainViewModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/DependencyInjection/AppComponent.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/Contact.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/email_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/duo_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/viber_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/whatsapp_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/DetailActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/DependencyInjection/SocailApplication.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/UI/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_viber.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_duo_whatsapp.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/UI/RecyclerAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_email.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_duo.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_whatsapp.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/WhatsApp.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/Duo.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/UI/DetailActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/Viber.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/dependencyInjection/ActivityBuilderModule.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/dependencyInjection/BaseApplication.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/dependencyInjection/AppComponent.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/ui/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_contactlist.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/model/Details.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/model/AppDetail.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/ui/DetailActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/model/ContactModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/model/App.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/ui/MainAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/ui/DetailAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_detail.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/ContactViewModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/model/Contact.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_main.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1280" />
+    <option name="width" value="2560" />
     <option name="height" value="1417" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -141,10 +336,10 @@
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
+      <sortByType ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,12 +350,28 @@
             <path>
               <item name="SocialConnect" type="b2602c69:ProjectViewProjectNode" />
               <item name="SocialConnect" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="SocialConnect" type="b2602c69:ProjectViewProjectNode" />
               <item name="SocialConnect" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SocialConnect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SocialConnect" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="generated" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SocialConnect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SocialConnect" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="generated" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SocialConnect" type="b2602c69:ProjectViewProjectNode" />
@@ -200,7 +411,34 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="socialconnect" type="462c0819:PsiDirectoryNode" />
-              <item name="Object" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SocialConnect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SocialConnect" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="socialconnect" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SocialConnect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SocialConnect" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SocialConnect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SocialConnect" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -208,15 +446,32 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="device.picker.selection" value="Pixel_2_API_28" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="sample.com.socialconnect" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="sample.com.socialconnect.UI" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="sample.com.socialconnect.model" />
+      <recent name="sample.com.socialconnect.ui" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="sample.com.socialconnect" />
       <recent name="sample.com.socialconnect.Object" />
     </key>
   </component>
@@ -240,7 +495,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -255,7 +510,7 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
       <option name="PREFERRED_AVD" value="" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
       <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
@@ -303,7 +558,7 @@
       <created>1563791757909</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1563791757909</updated>
+      <updated>1563862349268</updated>
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1563791781014</created>
@@ -319,14 +574,99 @@
       <option name="project" value="LOCAL" />
       <updated>1563791787124</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial commit">
+      <created>1563792609813</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563792609813</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial commit">
+      <created>1563792618658</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563792618658</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Merge branch 'model-object' into Screen">
+      <created>1563854887102</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563854887103</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Ignore">
+      <changelist id="73e65800-c477-4fda-9989-65e42d496e31" name="Ignore" comment="" />
+      <created>1563862254984</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1563862347563</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Screen UI">
+      <created>1563862349379</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1563862349379</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Model Classes">
+      <created>1563862372291</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1563862372291</updated>
+    </task>
+    <task id="LOCAL-00009" summary="UI Layer">
+      <created>1563862394204</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1563862394204</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Depencency Injection">
+      <created>1563862406213</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1563862406213</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Depencency Injection">
+      <created>1563862540857</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1563862540857</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Screen UI">
+      <created>1563863943893</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1563863943893</updated>
+    </task>
+    <task id="LOCAL-00013" summary="UI Layer">
+      <created>1563863961946</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1563863961946</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Dependency Injection">
+      <created>1563863971039</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1563863971039</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="1417" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="2560" height="1417" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13166398" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12311358" />
       <window_info id="Structure" order="1" side_tool="true" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -335,99 +675,379 @@
       <window_info id="Resources Explorer" order="6" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Captures" order="8" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32981133" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="3" visible="true" weight="0.32981133" />
-      <window_info anchor="bottom" id="Build" order="4" weight="0.32981133" />
-      <window_info anchor="bottom" id="Android Profiler" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Logcat" order="6" />
+      <window_info anchor="bottom" id="Find" order="0" weight="0.32981133" />
+      <window_info anchor="bottom" id="Run" order="1" />
+      <window_info anchor="bottom" id="Debug" order="2" />
+      <window_info anchor="bottom" id="TODO" order="3" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="4" sideWeight="0.50277996" side_tool="true" visible="true" weight="0.25207546" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="6" sideWeight="0.49722" visible="true" weight="0.25207546" />
+      <window_info anchor="bottom" id="Android Profiler" order="7" weight="0.32981133" />
+      <window_info anchor="bottom" id="Logcat" order="8" weight="0.28150943" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49722" weight="0.32981133" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Gradle" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
+      <window_info anchor="right" id="Preview" order="5" weight="0.32843527" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12311358" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Build Variants" order="5" side_tool="true" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Captures" order="8" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="0" weight="0.32981133" />
+      <window_info anchor="bottom" id="Run" order="1" />
+      <window_info anchor="bottom" id="Debug" order="2" />
+      <window_info anchor="bottom" id="TODO" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.50277996" side_tool="true" weight="0.32981133" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="6" sideWeight="0.49761716" weight="0.25207546" />
+      <window_info anchor="bottom" id="Android Profiler" order="7" weight="0.32981133" />
+      <window_info anchor="bottom" id="Logcat" order="8" weight="0.28150943" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49722" weight="0.32981133" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Gradle" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
+      <window_info anchor="right" id="Preview" order="5" weight="0.32843527" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Merge branch 'model-object' into Screen&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;app/src/main/java/sample/com/socialconnect/Object/Contact.java&#10;#&#9;app/src/main/java/sample/com/socialconnect/Object/Duo.java&#10;#&#9;app/src/main/java/sample/com/socialconnect/Object/Email.java&#10;#&#9;app/src/main/java/sample/com/socialconnect/Object/Viber.java&#10;#&#9;app/src/main/java/sample/com/socialconnect/Object/WhatsApp.java" />
+    <MESSAGE value="Merge branch 'model-object' into Screen" />
+    <MESSAGE value="Model Classes" />
+    <MESSAGE value="Depencency Injection" />
+    <MESSAGE value="Ignore" />
+    <MESSAGE value="Screen UI" />
+    <MESSAGE value="UI Layer" />
+    <MESSAGE value="Dependency Injection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dependency Injection" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="510">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/Person.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/RecyclerAdapterImpl.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.0.0/2151d26c3b241f0a887f2dadb9ab091649fcf020/recyclerview-1.0.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="287">
+          <caret line="10689" column="26" selection-start-line="10689" selection-start-column="26" selection-end-line="10689" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/Email.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/DependencyInjection/AppModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/Duo.java">
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-29/android.jar!/java/lang/Object.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/Viber.java">
+    <entry file="file://$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/dataBindingGenBaseClassesDebug/out/sample/com/socialconnect/databinding/ActivityMainBinding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/Object/WhatsApp.java">
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="306">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/dataBindingGenBaseClassesDebug/out/sample/com/socialconnect/databinding/ActivityDetailBinding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/dataBindingGenBaseClassesDebug/out/sample/com/socialconnect/databinding/ContactlistItemBinding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1442#1443#0" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_email.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_whatsapp.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/dependencyInjection/ActivityBuilderModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/dependencyInjection/BaseApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="53" selection-start-column="53" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/dependencyInjection/AppComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/model/Duo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/model/Email.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_duo.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_viber.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/ui/DetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/model/Viber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/model/WhatsApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/model/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_detail.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/ui/DetailAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="26" column="135" selection-start-line="26" selection-start-column="135" selection-end-line="26" selection-end-column="135" />
+          <folding>
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#1487#1488#0" expanded="true" />
+            <element signature="e#1553#1554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/sample/com/socialconnect/DataBinderMapperImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/ui/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="25" column="104" selection-start-line="25" selection-start-column="104" selection-end-line="25" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/ui/MainAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding>
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/model/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="26" column="64" lean-forward="true" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/sample/com/socialconnect/ContactViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

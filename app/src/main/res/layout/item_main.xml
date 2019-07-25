@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
 
         <variable
             name="viewModel"
-            type="sample.com.socialconnect.Object.Contact" />
+            type="sample.com.socialconnect.model.Contact" />
     </data>
 
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:padding="6dp">
 
         <TextView
@@ -22,55 +21,56 @@
             android:layout_marginStart="4dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:text="Name"
-            app:layout_constraintEnd_toStartOf="@+id/email_image5"
+            android:hint="Name"
+            android:text="@{viewModel.name}"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/email_icon"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/email_image"
+            android:id="@+id/email_icon"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
-            android:src="@drawable/ic_email_black_24dp"
+            android:src="@drawable/ic_envelope"
             app:layout_constraintBottom_toBottomOf="@+id/contact_text"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/duo_icon"
             app:layout_constraintTop_toTopOf="@+id/contact_text"
             app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
-            android:id="@+id/email_image4"
+            android:id="@+id/duo_icon"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
-            android:src="@drawable/ic_email_black_24dp"
+            android:src="@drawable/ic_duo"
             app:layout_constraintBottom_toBottomOf="@+id/contact_text"
-            app:layout_constraintEnd_toStartOf="@+id/email_image3"
+            app:layout_constraintEnd_toStartOf="@+id/whatsapp_icon"
             app:layout_constraintTop_toTopOf="@+id/contact_text"
             app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
-            android:id="@+id/email_image3"
+            android:id="@+id/whatsapp_icon"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
-            android:src="@drawable/ic_email_black_24dp"
+            android:src="@drawable/ic_whatsapp"
             app:layout_constraintBottom_toBottomOf="@+id/contact_text"
             app:layout_constraintEnd_toStartOf="@+id/email_image"
             app:layout_constraintTop_toTopOf="@+id/contact_text"
             app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
-            android:id="@+id/email_image5"
+            android:id="@+id/email_image"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
-            android:src="@drawable/ic_email_black_24dp"
+            android:src="@drawable/ic_viber"
             app:layout_constraintBottom_toBottomOf="@+id/contact_text"
-            app:layout_constraintEnd_toStartOf="@+id/email_image4"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/contact_text"
             app:layout_constraintVertical_bias="0.0" />
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

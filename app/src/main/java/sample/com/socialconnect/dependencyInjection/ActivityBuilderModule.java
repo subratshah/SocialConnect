@@ -1,12 +1,11 @@
-package sample.com.socialconnect.DependencyInjection;
+package sample.com.socialconnect.dependencyInjection;
 
 import dagger.Module;
 import dagger.android.ContributesAndroidInjector;
-import sample.com.socialconnect.MainActivity;
+import sample.com.socialconnect.ui.MainActivity;
 
 @Module
-abstract class ActivityModule {
-
+public abstract class ActivityBuilderModule {
     @ContributesAndroidInjector
     abstract MainActivity providesMainActivity();
 }

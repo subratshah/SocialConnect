@@ -1,18 +1,16 @@
-package sample.com.socialconnect.DependencyInjection;
+package sample.com.socialconnect.dependencyInjection;
 
 import javax.inject.Singleton;
 
 import dagger.Component;
 import dagger.android.AndroidInjector;
 import dagger.android.support.AndroidSupportInjectionModule;
-import sample.com.socialconnect.Object.SocailApplication;
 
 @Singleton
 @Component(modules = {
         AndroidSupportInjectionModule.class,
-        ActivityModule.class,
-        AppModule.class
+        ActivityBuilderModule.class
 })
-interface AppComponent extends AndroidInjector<SocailApplication> {
+public interface AppComponent extends AndroidInjector<BaseApplication> {
 
 }

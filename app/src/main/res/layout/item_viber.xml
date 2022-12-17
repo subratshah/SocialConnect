@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="sample.com.socialconnect.viewModel.Contact" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        card_view:cardCornerRadius="4dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/viber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="VIBER NAME"
+                android:text="@{viewModel.name}"
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/viber_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_viber"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/viber" />
+
+            <TextView
+                android:id="@+id/viberName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:hint="VIBER"
+                app:layout_constraintBottom_toBottomOf="@+id/viber_image"
+                app:layout_constraintStart_toStartOf="@+id/viber"
+                app:layout_constraintTop_toBottomOf="@+id/viber" />
+
+            <TextView
+                android:id="@+id/viberId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="VIBER ID"
+                android:text="@{viewModel.viberId}"
+                app:layout_constraintBottom_toBottomOf="@+id/viber"
+                app:layout_constraintStart_toStartOf="@+id/viberLast"
+                app:layout_constraintTop_toTopOf="@+id/viber" />
+
+            <TextView
+                android:id="@+id/viberLast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:hint="LAST SEEN"
+                android:text="@{viewModel.lastSeen}"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="@+id/viberName"
+                app:layout_constraintStart_toStartOf="@+id/viberName"
+                app:layout_constraintTop_toTopOf="@+id/viberName" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</layout>
+
+
